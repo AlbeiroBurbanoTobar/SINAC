@@ -71,7 +71,7 @@ El sistema incluye los siguientes casos de uso:
 | **Flujo Alternativo:**            | **Credenciales inválidas:** Si las credenciales son incorrectas, el sistema muestra un mensaje de error y solicita que se reintente. |
 | **Poscondiciones:**               | El usuario ha iniciado sesión correctamente. |
 
-![UC-01]("https://github.com/AlbeiroBurbanoTobar/SINAC/blob/main/Imágenes/UC-01.png")
+![UC-01]("https://github.com/AlbeiroBurbanoTobar/SINAC/tree/main/Imágenes/UC-01.png")
 
 ```plantuml
 @startuml
@@ -100,7 +100,7 @@ Usuario -- UC01
 | **Flujo Alternativo:**            | Ninguno. |
 | **Poscondiciones:**               | El usuario ha cerrado sesión correctamente. |
 
-![UC-02]("https://github.com/AlbeiroBurbanoTobar/SINAC/blob/main/Imágenes/UC-02.png")
+![UC-02]("https://github.com/AlbeiroBurbanoTobar/SINAC/tree/main/Imágenes/UC-02.png")
 
 ```plantuml
 @startuml
@@ -126,7 +126,7 @@ Usuario -- UC02
 | **Flujo Alternativo:**            | **Contraseña actual incorrecta:** Si la contraseña actual es incorrecta, el sistema muestra un mensaje de error. |
 | **Poscondiciones:**               | La contraseña del usuario ha sido actualizada. |
 
-![UC-03]("https://github.com/AlbeiroBurbanoTobar/SINAC/blob/main/Imágenes/UC-03.png")
+![UC-03]("https://github.com/AlbeiroBurbanoTobar/SINAC/tree/main/Imágenes/UC-03.png")
 
 ```plantuml
 @startuml
