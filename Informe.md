@@ -97,7 +97,7 @@ El sistema incluye los siguientes casos de uso:
 
 El modelo de dominio del sistema se representa mediante diagramas UML que describen las relaciones entre las entidades principales, como **Usuario**, **Administrador**, **Docente**, **Estudiante**, **Curso**, **Asignatura**, **Grupo**, **Nota**, **Asistencia**, **Noticia** y **Horario**.
 
-![Modelo de Dominio]("https://github.com/AlbeiroBurbanoTobar/SINAC/Imágenes/Modelo_de_dominio.png")
+![Modelo de Dominio]("https://github.com/AlbeiroBurbanoTobar/SINAC/blob/main/Imágenes/Modelo_de_dominio.png")
 ```plantuml
 @startuml
 class Usuario {}
