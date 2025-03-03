@@ -71,7 +71,7 @@ El sistema incluye los siguientes casos de uso:
 | **Flujo Alternativo:**            | **Credenciales inválidas:** Si las credenciales son incorrectas, el sistema muestra un mensaje de error y solicita que se reintente. |
 | **Poscondiciones:**               | El usuario ha iniciado sesión correctamente. |
 
-![UC-01]("https://github.com/AlbeiroBurbanoTobar/SINAC/tree/main/Imágenes/UC-01.png")
+![UC-01]("https://raw.githubusercontent.com/AlbeiroBurbanoTobar/SINAC/refs/heads/markdown/Imágenes/UC-01.png")
 
 ```plantuml
 @startuml
