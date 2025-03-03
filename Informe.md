@@ -151,7 +151,7 @@ Usuario -- UC03
 | **Flujo normal:**                 | 1. El administrador selecciona "Crear usuario". <br> 2. El sistema solicita los datos del nuevo usuario (nombre, correo, rol, etc.). <br> 3. El administrador ingresa los datos y confirma la creación. <br> 4. El sistema registra al nuevo usuario. |
 | **Flujo Alternativo:**            | **Datos inválidos:** Si los datos ingresados son inválidos, el sistema muestra un mensaje de error. |
 | **Poscondiciones:**               | El nuevo usuario ha sido creado en el sistema. |
-![UC-04]("https://github.com/AlbeiroBurbanoTobar/SINAC/blob/main/Imágenes/UC-04.png")
+![UC-04]("https://github.com/AlbeiroBurbanoTobar/SINAC/tree/main/Imágenes/UC-04.png")
 
 ```plantuml
 @startuml
@@ -176,7 +176,7 @@ Administrador -- UC04
 | **Flujo normal:**                 | 1. El administrador selecciona un usuario. <br> 2. El sistema muestra los roles disponibles. <br> 3. El administrador asigna o modifica el rol del usuario. <br> 4. El sistema actualiza los permisos del usuario. |
 | **Flujo Alternativo:**            | **Rol no válido:** Si el rol seleccionado no es válido, el sistema muestra un mensaje de error. |
 | **Poscondiciones:**               | Los roles y permisos del usuario han sido actualizados. |
-![UC-05]("https://github.com/AlbeiroBurbanoTobar/SINAC/blob/main/Imágenes/UC-05.png")
+![UC-05]("https://github.com/AlbeiroBurbanoTobar/SINAC/tree/main/Imágenes/UC-05.png")
 
 ```plantuml
 @startuml
@@ -201,7 +201,7 @@ Administrador -- UC05
 | **Flujo normal:**                 | 1. El administrador selecciona un usuario. <br> 2. El sistema solicita confirmación para eliminar al usuario. <br> 3. El administrador confirma la eliminación. <br> 4. El sistema elimina al usuario. |
 | **Flujo Alternativo:**            | **Cancelar eliminación:** Si el administrador cancela la acción, el sistema no elimina al usuario. |
 | **Poscondiciones:**               | El usuario ha sido eliminado del sistema. |
-![UC-06]("https://github.com/AlbeiroBurbanoTobar/SINAC/blob/main/Imágenes/UC-06.png")
+![UC-06]("https://github.com/AlbeiroBurbanoTobar/SINAC/tree/main/Imágenes/UC-06.png")
 
 ```plantuml
 @startuml
@@ -226,7 +226,7 @@ Administrador -- UC06
 | **Flujo normal:**                 | 1. El administrador selecciona un estudiante. <br> 2. El sistema muestra la lista de cursos disponibles. <br> 3. El administrador asigna al estudiante a un curso. <br> 4. El sistema registra la asignación. |
 | **Flujo Alternativo:**            | **Curso no disponible:** Si no hay cursos disponibles, el sistema muestra un mensaje de error. |
 | **Poscondiciones:**               | El estudiante ha sido asignado a un curso. |
-![UC-07]("https://github.com/AlbeiroBurbanoTobar/SINAC/blob/main/Imágenes/UC-07.png")
+![UC-07]("https://github.com/AlbeiroBurbanoTobar/SINAC/tree/main/Imágenes/UC-07.png")
 
 ```plantuml
 @startuml
@@ -251,7 +251,7 @@ Administrador -- UC07
 | **Flujo normal:**                 | 1. El administrador selecciona un estudiante. <br> 2. El sistema muestra la lista de grupos disponibles. <br> 3. El administrador asigna al estudiante a un grupo. <br> 4. El sistema registra la asignación. |
 | **Flujo Alternativo:**            | **Grupo no disponible:** Si no hay grupos disponibles, el sistema muestra un mensaje de error. |
 | **Poscondiciones:**               | El estudiante ha sido asignado a un grupo. |
-![UC-08]("https://github.com/AlbeiroBurbanoTobar/SINAC/blob/main/Imágenes/UC-08.png")
+![UC-08]("https://github.com/AlbeiroBurbanoTobar/SINAC/tree/main/Imágenes/UC-08.png")
 
 ```plantuml
 @startuml
@@ -276,7 +276,7 @@ Administrador -- UC08
 | **Flujo normal:**                 | 1. El administrador selecciona un estudiante. <br> 2. El sistema muestra la información actual del estudiante. <br> 3. El administrador modifica la información y confirma los cambios. <br> 4. El sistema actualiza la información del estudiante. |
 | **Flujo Alternativo:**            | **Datos inválidos:** Si los datos ingresados son inválidos, el sistema muestra un mensaje de error. |
 | **Poscondiciones:**               | La información del estudiante ha sido actualizada. |
-![UC-09]("https://github.com/AlbeiroBurbanoTobar/SINAC/blob/main/Imágenes/UC-09.png")
+![UC-09]("https://github.com/AlbeiroBurbanoTobar/SINAC/tree/main/Imágenes/UC-09.png")
 
 ```plantuml
 @startuml
@@ -301,7 +301,7 @@ Administrador -- UC09
 | **Flujo normal:**                 | 1. El usuario selecciona "Solicitar actualización de información". <br> 2. El sistema muestra el formulario de solicitud. <br> 3. El usuario ingresa los cambios solicitados y envía la solicitud. <br> 4. El sistema registra la solicitud para su revisión. |
 | **Flujo Alternativo:**            | **Datos inválidos:** Si los datos ingresados son inválidos, el sistema muestra un mensaje de error. |
 | **Poscondiciones:**               | La solicitud de actualización ha sido enviada. |
-![UC-10]("https://github.com/AlbeiroBurbanoTobar/SINAC/blob/main/Imágenes/UC-10.png")
+![UC-10]("https://github.com/AlbeiroBurbanoTobar/SINAC/tree/main/Imágenes/UC-10.png")
 
 ```plantuml
 @startuml
@@ -328,7 +328,7 @@ Estudiante -- UC10
 | **Flujo normal:**                 | 1. El usuario selecciona "Consultar información de estudiantes". <br> 2. El sistema muestra la lista de estudiantes. <br> 3. El usuario selecciona un estudiante y consulta su información. |
 | **Flujo Alternativo:**            | **Estudiante no encontrado:** Si el estudiante no existe, el sistema muestra un mensaje de error. |
 | **Poscondiciones:**               | El usuario ha consultado la información del estudiante. |
-![UC-11]("https://github.com/AlbeiroBurbanoTobar/SINAC/blob/main/Imágenes/UC-11.png")
+![UC-11]("https://github.com/AlbeiroBurbanoTobar/SINAC/tree/main/Imágenes/UC-11.png")
 
 ```plantuml
 @startuml
@@ -357,7 +357,7 @@ Docente -- UC11
 | **Flujo normal:**                 | 1. El administrador selecciona "Registrar asignatura". <br> 2. El sistema solicita los datos de la asignatura (nombre, código, etc.). <br> 3. El administrador ingresa los datos y confirma el registro. <br> 4. El sistema registra la asignatura. |
 | **Flujo Alternativo:**            | **Datos inválidos:** Si los datos ingresados son inválidos, el sistema muestra un mensaje de error. |
 | **Poscondiciones:**               | La asignatura ha sido registrada en el sistema. |
-![UC-12]("https://github.com/AlbeiroBurbanoTobar/SINAC/blob/main/Imágenes/UC-12.png")
+![UC-12]("https://github.com/AlbeiroBurbanoTobar/SINAC/tree/main/Imágenes/UC-12.png")
 
 ```plantuml
 @startuml
@@ -382,7 +382,7 @@ Administrador -- UC12
 | **Flujo normal:**                 | 1. El administrador selecciona una asignatura y un grupo. <br> 2. El sistema muestra la lista de docentes disponibles. <br> 3. El administrador asigna un docente a la asignatura y grupo. <br> 4. El sistema registra la asignación. |
 | **Flujo Alternativo:**            | **Docente no disponible:** Si no hay docentes disponibles, el sistema muestra un mensaje de error. |
 | **Poscondiciones:**               | El docente ha sido asignado a la asignatura y grupo. |
-![UC-13]("https://github.com/AlbeiroBurbanoTobar/SINAC/blob/main/Imágenes/UC-13.png")
+![UC-13]("https://github.com/AlbeiroBurbanoTobar/SINAC/tree/main/Imágenes/UC-13.png")
 
 ```plantuml
 @startuml
@@ -406,7 +406,7 @@ Administrador -- UC13
 | **Flujo normal:**                 | 1. El usuario selecciona "Consultar asignaturas por curso". <br> 2. El sistema muestra la lista de cursos. <br> 3. El usuario selecciona un curso y consulta las asignaturas asociadas. |
 | **Flujo Alternativo:**            | **Curso no encontrado:** Si el curso no existe, el sistema muestra un mensaje de error. |
 | **Poscondiciones:**               | El usuario ha consultado las asignaturas del curso. |
-![UC-14]("https://github.com/AlbeiroBurbanoTobar/SINAC/blob/main/Imágenes/UC-14.png")
+![UC-14]("https://github.com/AlbeiroBurbanoTobar/SINAC/tree/main/Imágenes/UC-14.png")
 
 ```plantuml
 @startuml
@@ -437,7 +437,7 @@ Estudiante -- UC14
 | **Flujo normal:**                 | 1. El docente selecciona una asignatura y un grupo. <br> 2. El sistema muestra la lista de estudiantes. <br> 3. El docente ingresa las notas de cada estudiante y confirma el registro. <br> 4. El sistema registra las notas. |
 | **Flujo Alternativo:**            | **Notas inválidas:** Si las notas ingresadas están fuera del rango permitido, el sistema muestra un mensaje de error. |
 | **Poscondiciones:**               | Las notas de los estudiantes han sido registradas. |
-![UC-15]("https://github.com/AlbeiroBurbanoTobar/SINAC/blob/main/Imágenes/UC-15.png")
+![UC-15]("https://github.com/AlbeiroBurbanoTobar/SINAC/tree/main/Imágenes/UC-15.png")
 
 ```plantuml
 @startuml
@@ -462,7 +462,7 @@ Docente -- UC15
 | **Flujo normal:**                 | 1. El docente selecciona una asignatura y un grupo. <br> 2. El sistema muestra la lista de estudiantes con sus notas. <br> 3. El docente modifica las notas y confirma los cambios. <br> 4. El sistema actualiza las notas. |
 | **Flujo Alternativo:**            | **Notas inválidas:** Si las notas ingresadas están fuera del rango permitido, el sistema muestra un mensaje de error. |
 | **Poscondiciones:**               | Las notas de los estudiantes han sido actualizadas. |
-![UC-16]("https://github.com/AlbeiroBurbanoTobar/SINAC/blob/main/Imágenes/UC-16.png")
+![UC-16]("https://github.com/AlbeiroBurbanoTobar/SINAC/tree/main/Imágenes/UC-16.png")
 
 ```plantuml
 @startuml
@@ -487,7 +487,7 @@ Docente -- UC16
 | **Flujo normal:**                 | 1. El usuario selecciona "Consultar notas". <br> 2. El sistema muestra las notas del estudiante o grupo seleccionado. |
 | **Flujo Alternativo:**            | **Notas no disponibles:** Si no hay notas registradas, el sistema muestra un mensaje de error. |
 | **Poscondiciones:**               | El usuario ha consultado las notas correctamente. |
-![UC-17]("https://github.com/AlbeiroBurbanoTobar/SINAC/blob/main/Imágenes/UC-17.png")
+![UC-17]("https://github.com/AlbeiroBurbanoTobar/SINAC/tree/main/Imágenes/UC-17.png")
 
 ```plantuml
 @startuml
@@ -513,7 +513,7 @@ Estudiante -- UC17
 | **Flujo normal:**                 | 1. El usuario selecciona "Generar reporte de notas". <br> 2. El sistema solicita los parámetros del reporte (curso, grupo, período, etc.). <br> 3. El usuario ingresa los parámetros y confirma la generación. <br> 4. El sistema genera y muestra el reporte. |
 | **Flujo Alternativo:**            | **Datos insuficientes:** Si no hay suficientes datos para generar el reporte, el sistema muestra un mensaje de error. |
 | **Poscondiciones:**               | El reporte de notas ha sido generado y está disponible para su consulta. |
-![UC-18]("https://github.com/AlbeiroBurbanoTobar/SINAC/blob/main/Imágenes/UC-18.png")
+![UC-18]("https://github.com/AlbeiroBurbanoTobar/SINAC/tree/main/Imágenes/UC-18.png")
 
 ```plantuml
 @startuml
@@ -542,7 +542,7 @@ Docente -- UC18
 | **Flujo Alternativo:**            | **Asistencia ya registrada:** Si la asistencia ya fue registrada para esa fecha, el sistema muestra un mensaje de error. |
 | **Poscondiciones:**               | La asistencia de los estudiantes ha sido registrada. |
 
-![UC-19]("https://github.com/AlbeiroBurbanoTobar/SINAC/blob/main/Imágenes/UC-19.png")
+![UC-19]("https://github.com/AlbeiroBurbanoTobar/SINAC/tree/main/Imágenes/UC-19.png")
 
 ```plantuml
 @startuml
@@ -566,7 +566,7 @@ Docente -- UC19
 | **Flujo normal:**                 | 1. El docente selecciona una asignatura y un grupo. <br> 2. El sistema muestra los registros de asistencia. <br> 3. El docente modifica los registros y confirma los cambios. <br> 4. El sistema actualiza los registros de asistencia. |
 | **Flujo Alternativo:**            | **Registro no encontrado:** Si no hay registros de asistencia, el sistema muestra un mensaje de error. |
 | **Poscondiciones:**               | Los registros de asistencia han sido actualizados. |
-![UC-20]("https://github.com/AlbeiroBurbanoTobar/SINAC/blob/main/Imágenes/UC-20.png")
+![UC-20]("https://github.com/AlbeiroBurbanoTobar/SINAC/tree/main/Imágenes/UC-20.png")
 
 ```plantuml
 @startuml
@@ -591,7 +591,7 @@ Docente -- UC20
 | **Flujo normal:**                 | 1. El usuario selecciona "Consultar asistencia". <br> 2. El sistema muestra los registros de asistencia del estudiante o grupo seleccionado. |
 | **Flujo Alternativo:**            | **Asistencia no disponible:** Si no hay registros de asistencia, el sistema muestra un mensaje de error. |
 | **Poscondiciones:**               | El usuario ha consultado los registros de asistencia. |
-![UC-21]("https://github.com/AlbeiroBurbanoTobar/SINAC/blob/main/Imágenes/UC-21.png")
+![UC-21]("https://github.com/AlbeiroBurbanoTobar/SINAC/tree/main/Imágenes/UC-21.png")
 
 ```plantuml
 @startuml
@@ -622,7 +622,7 @@ Estudiante -- UC21
 | **Flujo normal:**                 | 1. El editor selecciona "Publicar noticia". <br> 2. El sistema solicita el título, contenido y fecha de publicación. <br> 3. El editor ingresa los datos y confirma la publicación. <br> 4. El sistema publica la noticia. |
 | **Flujo Alternativo:**            | **Datos incompletos:** Si faltan datos obligatorios, el sistema muestra un mensaje de error. |
 | **Poscondiciones:**               | La noticia ha sido publicada y está disponible para todos los usuarios. |
-![UC-22]("https://github.com/AlbeiroBurbanoTobar/SINAC/blob/main/Imágenes/UC-22.png")
+![UC-22]("https://github.com/AlbeiroBurbanoTobar/SINAC/tree/main/Imágenes/UC-22.png")
 
 ```plantuml
 @startuml
@@ -647,7 +647,7 @@ EditorNoticias -- UC22
 | **Flujo normal:**                 | 1. El editor selecciona una noticia publicada. <br> 2. El sistema muestra el contenido de la noticia. <br> 3. El editor modifica el contenido y confirma los cambios. <br> 4. El sistema actualiza la noticia. |
 | **Flujo Alternativo:**            | **Noticia no encontrada:** Si la noticia no existe, el sistema muestra un mensaje de error. |
 | **Poscondiciones:**               | La noticia ha sido actualizada. |
-![UC-23]("https://github.com/AlbeiroBurbanoTobar/SINAC/blob/main/Imágenes/UC-23.png")
+![UC-23]("https://github.com/AlbeiroBurbanoTobar/SINAC/tree/main/Imágenes/UC-23.png")
 
 ```plantuml
 @startuml
@@ -672,7 +672,7 @@ EditorNoticias -- UC23
 | **Flujo normal:**                 | 1. El editor selecciona una noticia publicada. <br> 2. El sistema solicita confirmación para eliminar la noticia. <br> 3. El editor confirma la eliminación. <br> 4. El sistema elimina la noticia. |
 | **Flujo Alternativo:**            | **Cancelar eliminación:** Si el editor cancela la acción, el sistema no elimina la noticia. |
 | **Poscondiciones:**               | La noticia ha sido eliminada del sistema. |
-![UC-24]("https://github.com/AlbeiroBurbanoTobar/SINAC/blob/main/Imágenes/UC-24.png")
+![UC-24]("https://github.com/AlbeiroBurbanoTobar/SINAC/tree/main/Imágenes/UC-24.png")
 
 ```plantuml
 @startuml
@@ -692,7 +692,7 @@ EditorNoticias -- UC24
 
 El modelo de dominio del sistema se representa mediante diagramas UML que describen las relaciones entre las entidades principales, como **Usuario**, **Administrador**, **Docente**, **Estudiante**, **Curso**, **Asignatura**, **Grupo**, **Nota**, **Asistencia**, **Noticia** y **Horario**.
 
-![Modelo de Dominio]("https://github.com/AlbeiroBurbanoTobar/SINAC/blob/main/Imágenes/Modelo_de_dominio.png")
+![Modelo de Dominio]("https://github.com/AlbeiroBurbanoTobar/SINAC/tree/main/Imágenes/Modelo_de_dominio.png")
 ```plantuml
 @startuml
 class Usuario {}
