@@ -71,7 +71,7 @@ El sistema incluye los siguientes casos de uso:
 | **Flujo Alternativo:**            | **Credenciales inválidas:** Si las credenciales son incorrectas, el sistema muestra un mensaje de error y solicita que se reintente. |
 | **Poscondiciones:**               | El usuario ha iniciado sesión correctamente. |
 
-![UC-01]("https://ibb.co/Z6DbGcj5")
+![UC-01]("https://github.com/AlbeiroBurbanoTobar/SINAC/blob/2bad0a3bf45bc3975e920bb5cefd45a9fa9559da/Im%C3%A1genes/UC-01.png")
 
 ```plantuml
 @startuml
@@ -647,7 +647,7 @@ EditorNoticias -- UC22
 | **Flujo normal:**                 | 1. El editor selecciona una noticia publicada. <br> 2. El sistema muestra el contenido de la noticia. <br> 3. El editor modifica el contenido y confirma los cambios. <br> 4. El sistema actualiza la noticia. |
 | **Flujo Alternativo:**            | **Noticia no encontrada:** Si la noticia no existe, el sistema muestra un mensaje de error. |
 | **Poscondiciones:**               | La noticia ha sido actualizada. |
-![UC-23]("https://github.com/AlbeiroBurbanoTobar/SINAC/tree/main/Imágenes/UC-23.png")
+![UC-23]("https://github.com/AlbeiroBurbanoTobar/SINAC/blob/2bad0a3bf45bc3975e920bb5cefd45a9fa9559da/Im%C3%A1genes/UC-23.png")
 
 ```plantuml
 @startuml
@@ -672,7 +672,7 @@ EditorNoticias -- UC23
 | **Flujo normal:**                 | 1. El editor selecciona una noticia publicada. <br> 2. El sistema solicita confirmación para eliminar la noticia. <br> 3. El editor confirma la eliminación. <br> 4. El sistema elimina la noticia. |
 | **Flujo Alternativo:**            | **Cancelar eliminación:** Si el editor cancela la acción, el sistema no elimina la noticia. |
 | **Poscondiciones:**               | La noticia ha sido eliminada del sistema. |
-![UC-24]("https://github.com/AlbeiroBurbanoTobar/SINAC/tree/main/Imágenes/UC-24.png")
+![UC-24]("https://github.com/AlbeiroBurbanoTobar/SINAC/blob/2bad0a3bf45bc3975e920bb5cefd45a9fa9559da/Im%C3%A1genes/UC-24.png")
 
 ```plantuml
 @startuml
@@ -692,7 +692,7 @@ EditorNoticias -- UC24
 
 El modelo de dominio del sistema se representa mediante diagramas UML que describen las relaciones entre las entidades principales, como **Usuario**, **Administrador**, **Docente**, **Estudiante**, **Curso**, **Asignatura**, **Grupo**, **Nota**, **Asistencia**, **Noticia** y **Horario**.
 
-![Modelo de Dominio]("https://github.com/AlbeiroBurbanoTobar/SINAC/tree/main/Imágenes/Modelo_de_dominio.png")
+![Modelo de Dominio]("https://github.com/AlbeiroBurbanoTobar/SINAC/blob/2bad0a3bf45bc3975e920bb5cefd45a9fa9559da/Im%C3%A1genes/Modelo_de_dominio.png")
 ```plantuml
 @startuml
 class Usuario {}
